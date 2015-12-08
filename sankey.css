@@ -1,0 +1,29 @@
+/*
+original source was Mike Bostock http://bost.ocks.org/mike/sankey/
+modified by thedatagame.com.au
+*/
+
+.node rect {
+  cursor: move;
+  fill-opacity: .8;
+  shape-rendering: optimizeQuality;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
+
+svg {
+  font: 11px sans-serif;
+}
